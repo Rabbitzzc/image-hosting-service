@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T07:23:06.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Ro5CMUIAmjJ_-h1M3RiY" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:41:50.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="1J3X9Hu_HPPS7lwDuPmv" version="13.11.0" type="github">
   <diagram id="gCQoyacJChci58RxBrDn" name="Page-1">
-    <mxGraphModel dx="2013" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2200" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="BjMoMa6c4h5XeE3X_5X_-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="384" y="530" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-21" target="BjMoMa6c4h5XeE3X_5X_-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BjMoMa6c4h5XeE3X_5X_-21" value="执行子应用周期配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="720" width="120" height="60" as="geometry" />
@@ -203,6 +206,60 @@
         </mxCell>
         <mxCell id="BjMoMa6c4h5XeE3X_5X_-68" value="操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="731" y="1160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-72" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="736" y="690" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-80" value="容器 DOM 生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="766" y="680" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-81" value="样式隔离配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="766" y="740" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-82" value="沙箱创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="790" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-84" target="BjMoMa6c4h5XeE3X_5X_-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-84" target="BjMoMa6c4h5XeE3X_5X_-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-84" value="SnapshotSandbox" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="1690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-85" target="BjMoMa6c4h5XeE3X_5X_-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-85" value="子应用激活" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-86" target="BjMoMa6c4h5XeE3X_5X_-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-86" value="记录当前 window 的状态，打快照 windowSnapshot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-87" value="通过 modifyPropsMap 对象还原当前子应用沙箱环境" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-91" target="BjMoMa6c4h5XeE3X_5X_-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-91" value="子应用卸载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-92" target="BjMoMa6c4h5XeE3X_5X_-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-92" value="记录沙箱运营期间的被修改的 window 属性，记录在 modifyPropsMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-93" value="通过快照对象 windowSnapshot 还原沙箱状态到激活前状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-97" value="操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1770" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
