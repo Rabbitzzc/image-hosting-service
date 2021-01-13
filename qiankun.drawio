@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T07:41:50.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="1J3X9Hu_HPPS7lwDuPmv" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T13:33:12.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="k5wouxg0VC5GZ4vp3cxs" version="13.11.0" type="github">
   <diagram id="gCQoyacJChci58RxBrDn" name="Page-1">
     <mxGraphModel dx="2200" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,6 +260,69 @@
         </mxCell>
         <mxCell id="BjMoMa6c4h5XeE3X_5X_-97" value="操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1770" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-100" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1960" as="sourcePoint" />
+            <mxPoint x="160" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-101" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1960" as="sourcePoint" />
+            <mxPoint x="290" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-102" target="BjMoMa6c4h5XeE3X_5X_-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-102" value="createSandboxContainer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-103" target="BjMoMa6c4h5XeE3X_5X_-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-103" value="根据配置创建 Sandbox 实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-104" target="BjMoMa6c4h5XeE3X_5X_-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-104" target="BjMoMa6c4h5XeE3X_5X_-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-104" value="生成 Sandbox 生命周期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-105" target="BjMoMa6c4h5XeE3X_5X_-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-105" value="mount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-106" target="BjMoMa6c4h5XeE3X_5X_-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-106" value="unmount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-107" target="BjMoMa6c4h5XeE3X_5X_-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-107" value="&amp;nbsp;sanbox active 激活" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-108" value="sandbox inactive 卸载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-113" value="patch 劫持各全局监听，防止污染全局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BjMoMa6c4h5XeE3X_5X_-114" target="BjMoMa6c4h5XeE3X_5X_-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjMoMa6c4h5XeE3X_5X_-114" value="free 释放各类监听&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
